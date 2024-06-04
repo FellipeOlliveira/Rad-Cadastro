@@ -8,7 +8,8 @@ def inicailizarBD():
     CREATE TABLE IF NOT EXISTS Aluno 
         ( 
          alunoID INT PRIMARY KEY,  
-         nomeAluno VARCHAR(50) NOT NULL 
+         nomeAluno VARCHAR(50) NOT NULL,
+         nota int NOT NULL
         );""",
     """CREATE TABLE IF NOT EXISTS  Professores 
         ( 
